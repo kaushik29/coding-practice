@@ -22,9 +22,19 @@ public class TestOthers {
 
     PalindromeNumber palindromeNumberTest = new PalindromeNumber();
     Boolean postiveUseCase = palindromeNumberTest.isPalindrome(123454321);
-    Boolean negatvieUseCase = palindromeNumberTest.isPalindrome(1234121);
-    if (negatvieUseCase == false && postiveUseCase == true) {
+    Boolean negativeUseCase = palindromeNumberTest.isPalindrome(1234121);
+    if (negativeUseCase == false && postiveUseCase == true) {
       logger.info("its working fine");
     }
+  }
+
+  @Test
+  public void testFactorialTrailingZero() {
+
+    FactorialTrailingZero factorialTrailingZero = new FactorialTrailingZero();
+    int number = 12;
+    logger.info("trailing zeros in the number " + number + " factorial's is " + factorialTrailingZero
+        .trailingZeroes(number));
+
   }
 }
