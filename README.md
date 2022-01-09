@@ -8,6 +8,11 @@ you can run any code with testClass and you can change log level to debug to get
 
 ## Coding examples
 
-1. Caluclate Factorial Trailing zero [FactorialTrailingZero.java](https://github.com/kaushik29/coding-practice/blob/main/practice/src/main/java/com/prac/others/FactorialTrailingZero.java)
-2. Basic FizzBuzz Example [FizzBuzz.java](https://github.com/kaushik29/coding-practice/blob/main/practice/src/main/java/com/prac/others/FizzBuzz.java)
-3. Find the palindrome of the number [PalindromeNumber.java](https://github.com/kaushik29/coding-practice/blob/main/practice/src/main/java/com/prac/others/PalindromeNumber.java)
+[**TestOthers**](https://github.com/kaushik29/coding-practice/blob/b9cbd55d20be8abc1795f0f29a0b00dba0978369/practice-java/src/test/java/com/prac/others/TestOthers.java) to test below examples 
+1. Caluclate Factorial Trailing zero 
+2. Basic FizzBuzz Example 
+3. Find the palindrome of the number
+
+
+[**TestArray**](https://github.com/kaushik29/coding-practice/blob/b9cbd55d20be8abc1795f0f29a0b00dba0978369/practice-java/src/test/java/com/prac/others/TestArray.java) to test below examples 
+1. Find samllest and largest number in Array 
