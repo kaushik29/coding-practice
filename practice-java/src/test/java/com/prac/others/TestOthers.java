@@ -38,11 +38,5 @@ public class TestOthers {
         .trailingZeroes(number));
 
   }
-
-  @Test
-  public void testFindSmallestLargestNumberClass(){
-    FindSmallestLargestNumberClass findNumbObj =  new FindSmallestLargestNumberClass();
-    int[] arr = new int[]{1,2,9,3,4,5,6,11,23,55,77,11,223,6,};
-    findNumbObj.findSamllestLargestNumber(arr);
-  }
+  
 }

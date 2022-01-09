@@ -6,7 +6,7 @@ public class FindSmallestLargestNumberClass {
 
   private static final Logger logger = Logger.getLogger(FindSmallestLargestNumberClass.class);
 
-  public void findSamllestLargestNumber(int[] arr){
+  public int[] findSamllestLargestNumber(int[] arr){
 
     int largetNum = arr[0];
     int smallestNum = arr[0];
@@ -17,7 +17,6 @@ public class FindSmallestLargestNumberClass {
         smallestNum = num;
       }
     }
-    System.out.println("Larget number in the array is "+largetNum);
-    System.out.println("Smallest number in the array is "+smallestNum);
+    return new int[]{smallestNum,largetNum};
   }
 }
