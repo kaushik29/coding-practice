@@ -9,6 +9,7 @@ import org.junit.Assert;
 import org.junit.Test;
 
 import com.prac.array.FindSmallestLargestNumberClass;
+import com.prac.array.RemoveDuplicatesFromSortedArray;
 
 public class TestArray {
   private static final Logger logger = Logger.getLogger(TestArray.class);
@@ -23,5 +24,11 @@ public class TestArray {
     System.out.println(Arrays.toString(arr));
   }
 
+  @Test
+  public void testRemoveDuplicatesFromSortedArray(){
+// leetcode-26
+    int[] arr = new  int[]{1,2,3,4,6,7,7,8,8,8};
+    Assert.assertEquals(7, RemoveDuplicatesFromSortedArray.removeDuplicates(arr));
+  }
 
 }
